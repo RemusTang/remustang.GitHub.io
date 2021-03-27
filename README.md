@@ -1,16 +1,15 @@
-本项目仅仅是为了前来Fork的朋友保留的，原则上不再更新。本项目示范网站地址为：https://klovien.github.io 。
+这里是tht为zxy制作的18岁生日礼物
 
-三叶草国际语已更名为“格罗比言·全球语”，新的项目地址为：
+希望zxy能用它来记录自己以后的，属于自己的人生
 
-* 中文版：https://gitee.com/globien/globien
-* 英文版：https://github.com/globien/globien.github.io
+网址：https://tozxy.top
 
-### 致谢
+ps：
 
-1. 这个模板是从这里 [BY](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢作者BY。 
-2. BY的模板应该是从这个模板 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 也一起感谢一下。
-3. 感谢 Jekyll、Github Pages 和 Bootstrap!
+关于发文章的事
 
-### License
+你可以自学一下markdown文档
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/klovien/klovien.github.io/blob/master/LICENSE)。
+然后将想发的文章添加到post文件夹里面
+
+我来帮你更新
