@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About"
-description: "为了让更多中国人能融入国际语运动而作"
-header-img: "img/post-bg-rwd.jpg"
+title: "关于"
+description: "该写些什么好呢？"
+header-img: "img/post-bg-about.jpg"
 ---
 
 <!-- Language Selector -->
@@ -15,22 +15,20 @@ header-img: "img/post-bg-rwd.jpg"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒<br>
-    积土成山 非斯须之作</p></blockquote>
+    <blockquote><p>我们把已经失去的叫做过去<br>
+    还没得到的叫做未来<br>
+    停留在手上的叫做现在</p></blockquote>
 
-    <p>Hi，我是<strong>Dr. Henri Jambo</strong>，现旅居世界上著名的多元文化城市——蒙特利尔。在魁北克，我们不仅感受到英语、法语的强烈冲突，甚至也能感受到阿拉伯语、中文等多种语言的相互碰撞。</p>
-
-    <p>同时我深知中国也许是世界上英语学习人均投入最多的国家，但中国人学好英语的不多，社会资源浪费很大。</p>
+    <p>唐浩天为<strong>周馨仪</strong>制作的博客网站，作为给她的18岁生日礼物</p>
     
-    <p>为了让全世界都有一门共同的、简单的外语可以学习，降低外语学习的成本并让大家相互沟通更容易，我设计了这门中西融合的人造国际语。</p>
+    <p>人生的前18个年头我们都活得稀里糊涂的，许多记忆不知不觉中都失去了呢。所以就有了做网站的想法，希望你能用它来记录你的人生</p>
     
-    <p>她是对世界语和其他国际语的传承，也希望她能超越世界语。</p>
+    <p>不论是开心也好，伤心也罢，都可以在这里写下来。。。</p>
     
-    <p>希望更多的人加入到这个社群中，共同成长。这是新的希望！</p>
-
-    <p>本网站为三叶语官方网站。您也可关注知乎专栏<a href="https://zhuanlan.zhihu.com/Artificial-International-Language">👉人造国际语</a>。如果您有什么建议，欢迎提出探讨~</p>
-
-    <p></p>
+    <p>PS</p>
+    
+    <p>`关于`的内容与第一篇文章`to zxy`的内容基本一样，是因为我想让你自己来介绍自己，为了美观就暂时把关于写了，到时候找我修改鸭</p>
+    
     
 </div>
 
@@ -94,38 +92,6 @@ header-img: "img/post-bg-rwd.jpg"
     // init
     _render();
 </script>
-
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
-
- <!-- disqus 评论框 start  -->
-{% if site.disqus.enable %}
-
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-    </div>
-</div>
-<!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
